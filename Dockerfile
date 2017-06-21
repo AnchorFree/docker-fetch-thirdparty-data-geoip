@@ -12,6 +12,7 @@ RUN apt-get update -qq \
  && apt-get update -qq \
  && apt-get install -qq -y --no-install-recommends \
       geoipupdate \
+      xz-utils \
  && rm -rf /var/lib/apt/lists/* \
  && true
 
