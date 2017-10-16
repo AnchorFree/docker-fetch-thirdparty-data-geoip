@@ -8,4 +8,4 @@ EOF
 
 geoipupdate
 
-tar --exclude '*.lock' --directory /usr/share/GeoIP --create --file /output/geoip.tar.xz .
+cp /usr/share/GeoIP/* /output/
